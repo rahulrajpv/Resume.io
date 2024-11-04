@@ -3,51 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rahulraj P V - PhD Applicant</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Rahulraj P V - Portfolio</title>
     <style>
-        .gradient-text {
-            background: linear-gradient(45deg, #1a365d, #2563eb);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #2ecc71 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        .section-title {
+            color: #333;
+            margin-top: 20px;
+            font-size: 20px;
+            border-bottom: 2px solid #2ecc71;
+            padding-bottom: 5px;
+        }
+        .content {
+            padding: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .social-links a {
+            color: #2ecc71;
+            text-decoration: none;
+            margin-right: 15px;
         }
     </style>
 </head>
-<body class="bg-gray-50">
-    <!-- Header Section -->
-    <header class="bg-white shadow-lg">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="text-3xl font-bold gradient-text">Rahulraj P V</h1>
-            <ul class="flex space-x-4">
-                <li><a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a></li>
-                <li><a href="education.html" class="text-gray-700 hover:text-blue-600">Education</a></li>
-                <li><a href="research.html" class="text-gray-700 hover:text-blue-600">Research</a></li>
-                <li><a href="skills.html" class="text-gray-700 hover:text-blue-600">Skills</a></li>
-                <li><a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body>
 
-    <!-- Hero Section -->
-    <section class="container mx-auto px-6 py-16">
-        <div class="bg-white rounded-lg shadow-xl p-8">
-            <h2 class="text-4xl font-bold mb-6 gradient-text">Innovating the Future of Cinema</h2>
-            <p class="text-gray-700 text-lg leading-relaxed mb-6">
-                As an aspiring researcher at MIT Media Lab, my mission is to merge AI and filmmaking, creating a new paradigm in cinematic storytelling that resonates deeply with audiences.
-            </p>
-            <div class="flex flex-wrap gap-4">
-                <a href="https://linkedin.com/in/rahulrajpvr7d" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">LinkedIn</a>
-                <a href="https://github.com/iamr7d" class="bg-gray-800 text-white px-6 py-2 rounded-full hover:bg-gray-900 transition">GitHub</a>
-                <a href="https://medium.com/@rahulrajpvr7d" class="bg-gray-600 text-white px-6 py-2 rounded-full hover:bg-gray-700 transition">Medium</a>
-            </div>
-        </div>
+<header>
+    <h1>Rahulraj P V</h1>
+    <p style="text-align: center;">IIITMK (DUK) M.Tech CSE (AI) Student | IIM Kozhikode Research Intern</p>
+    <p style="text-align: center;">Email: <a href="mailto:rahulraj.cs22@duk.ac.in">rahulraj.cs22@duk.ac.in</a> | Mobile: +91 9061360912</p>
+</header>
+
+<div class="container">
+    <section class="content">
+        <h2 class="section-title">Education</h2>
+        <ul>
+            <li><strong>MTech in Computer Science and Engineering (AI)</strong> - Digital University Kerala (2022-2024)</li>
+            <li><strong>Post Graduate Diploma in Data Science and Analytics</strong> - Kannur University (2021-2022)</li>
+            <li><strong>Master of Science in Physics</strong> - Kannur University (2019-2021)</li>
+        </ul>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="bg-white border-t mt-12 py-6">
-        <div class="container mx-auto px-6 text-center">
-            <p class="text-gray-500">&copy; 2024 Rahulraj P V. All rights reserved.</p>
+    <section class="content">
+        <h2 class="section-title">Work Experience</h2>
+        <ul>
+            <li><strong>Co-Founder</strong> - KnowLumi, Kozhikode, Kerala (Sep 2024 - Present)</li>
+            <li><strong>Research Intern</strong> - IIM Kozhikode (July 2023 - Dec 2023)</li>
+            <li><strong>Data Scientist Intern</strong> - First Principle Labs (Feb 2022 - June 2022)</li>
+            <li><strong>AI Developer Intern</strong> - PixDynamics (Feb 2022 - May 2022)</li>
+            <li><strong>Research Intern</strong> - CSIR National Physical Laboratory (Apr 2021 - Jun 2021)</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2 class="section-title">Research Papers</h2>
+        <ul>
+            <li>Monetize the Dual: A data analytic approach for native language and prequel movies popularity analysis (ICDAI'23, Springer)</li>
+            <li>Changes in Atmospheric Air Quality related to Covid-19 lockdown in Kerala (IJAES'22)</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2 class="section-title">Research Projects</h2>
+        <ul>
+            <li><strong>AI Driven Campus Radio</strong>: Automated an AI-driven campus radio using LLMs.</li>
+            <li><strong>Predictive Algorithm for Movie Success</strong>: Developed an algorithm inspired by DNA sequencing to forecast movie success.</li>
+            <li><strong>Real-Time Film Analysis</strong>: Linked facial expressions with audience engagement through neuroscience.</li>
+            <li><strong>Unsupervised Domain Adaptation</strong>: Enhanced machine learning adaptability with clustering techniques.</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2 class="section-title">Awards & Achievements</h2>
+        <ul>
+            <li>Outstanding Student Award, Digital University Kerala (2022-24)</li>
+            <li>Smart India Hackathon 2023 - University Level First</li>
+            <li>Directed Malayalam musical album 'Silent Spring' published on Amazon Prime</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li><strong>Programming Languages</strong>: Python, R</li>
+            <li><strong>Technologies</strong>: Machine Learning, Computer Vision, Deep Learning, NLP, Data Science & Analytics, Git</li>
+            <li><strong>Creative Skills</strong>: Screenplay Writing, Photography, Film Direction, Video Editing</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2 class="section-title">Connect</h2>
+        <p>Feel free to connect with me on:</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/rahulrajpvr7d/">LinkedIn</a>
+            <a href="https://medium.com/@rahulrajpvr7d">Medium</a>
+            <a href="https://www.instagram.com/rahulrajpvr7d/">Instagram</a>
+            <a href="https://github.com/iamr7d">GitHub</a>
+            <a href="https://x.com/iam_r7d">Twitter</a>
         </div>
-    </footer>
+    </section>
+</div>
+
 </body>
 </html>
